@@ -1,6 +1,9 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.16.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -15,8 +18,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "core-js": "^3.26.0",
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "jate-cli": "^0.1.0",
+    "jate-framework": "^0.0.1",
+    "latest-version": "^7.0.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
